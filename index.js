@@ -21,7 +21,7 @@ function fetchSongData(artist) {
         container.innerHTML = ''; // Pulisce i risultati precedenti
         data.data.forEach(song => {
             const songElement = document.createElement('div');
-            songElement.innerHTML = 
+            songElement.innerHTML = /*html*/
             `      
             <div class="card-body">
             <img src="${song.album.cover}" class="card-img-top" alt="Cover dell'album">
@@ -43,3 +43,4 @@ function fetchSongData(artist) {
     });
 }
  
+
